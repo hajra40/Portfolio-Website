@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: rgb(85, 84, 84);
+  text-transform: uppercase;
+  font-family: 'Roboto';
+}
+
+
+.sec1{
+  background: url(./port-bg.svg) no-repeat 100% 100%/cover;
+}
+
+.sec3{
+  font-weight: 700;
+  color: rgb(184, 184, 184);
+  background: url(./port-bg.svg) no-repeat center center/cover;
+}
+
+.sec5,.sec7{
+  background: url(./port3.svg) no-repeat 100% 100%/cover;
+}
+
+
+section.sec1,
+section.sec2,
+section.sec3,
+section.sec4,
+section.sec5,
+section.sec6 {
+  padding: 7rem 0rem;
+}
+
+
+p{
+  padding: 1.5rem 0rem;
+}
+
+h1,h2,h3,h4{
+  padding: 1rem;
+  margin: 0.5rem;
+  font-weight: 500;
+  word-wrap: break-word;
+  font-size: 2rem;
+}
+
+#footer{
+  background: #000;
+}
+
+.logo{
+  padding: 1rem 1rem;
+}
+
+span{
+  color: #05466B;
+  font-weight: 700;
+}
+
+.row{
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #05466B;
+  padding: 1rem 1rem;
+}
+
+a:hover i{
+  transform: scale(1.2);
+  color: rgb(78, 78, 78);
+  transition: 0.7s;
+}
+
+.card{
+  margin: 0rem 1rem;
+  padding: 0.5rem;
+}
+
+.card:hover{
+  border-radius: 15px;
+  transform: scale(1.08);
+  transition: 0.5s;
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.568),
+  -3px -3px 5px rgba(122, 122, 122, 0.589);
+}
+
+.carousel-caption p,
+.carousel-caption h5{
+  color: #333;
+}
+
+.carousel-item{
+  background: #045b8d;
+}
+
+.btn{
+  padding: 1rem;
+  background: #05466B;
+  color: rgb(167, 167, 167);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
