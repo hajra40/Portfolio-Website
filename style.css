@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 body{
@@ -84,10 +86,9 @@ a:hover i{
 
 .card:hover{
   border-radius: 15px;
-  transform: scale(1.08);
-  transition: 0.5s;
-  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.568),
-  -3px -3px 5px rgba(122, 122, 122, 0.589);
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.1);
 }
 
 .carousel-caption p,
@@ -107,3 +108,21 @@ a:hover i{
   font-size: 1.5rem;
 }
 
+.about__cont {
+  padding: 1rem 2rem;
+}
+
+.about__cont p{
+  font-weight: 400;
+}
+
+.ach__cont {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h4{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
